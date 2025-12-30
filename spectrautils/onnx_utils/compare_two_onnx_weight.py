@@ -1,6 +1,6 @@
 import onnx
-from onnx import numpy_helper
 import numpy as np
+from onnx import numpy_helper
 
 def load_onnx_weights(onnx_file):
     """

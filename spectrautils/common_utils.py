@@ -6,6 +6,7 @@ def enter_workspace():
     """
     将当前工作目录更改为调用此函数的脚本所在的目录。
     """
+    
     # inspect.stack()[1] 获取的是调用者的堆栈帧信息
     caller_frame = inspect.stack()[1]
 

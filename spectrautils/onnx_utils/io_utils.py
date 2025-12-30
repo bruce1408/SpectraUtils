@@ -6,7 +6,6 @@ from collections import OrderedDict
 from typing import Dict, Union, List
 import torchvision.models as models
 
-
 def get_onnx_model_input_output_info(onnx_path:str)->OrderedDict:
     """
     获取ONNX模型的输入输出信息

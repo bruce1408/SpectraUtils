@@ -27,7 +27,6 @@ class ColoredFormatter(logging.Formatter):
         colored_prefix = f"{level_color}{prefix}{Style.RESET_ALL}"
         return f"{colored_prefix}{record.msg}"
 
-
 class AsyncLoggerManager:
     """异步日志管理器（单例模式）"""
     
