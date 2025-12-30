@@ -1,0 +1,20 @@
+模型: /home/bruce_ultra/workspace/8620_code_repo/8620_code_x86/onnx_models/od_bev_0306.onnx
+IR版本: 8
+生产者名称: pytorch
+生产者版本: 1.12.1
+模型版本: 0
+算子集版本: 16
+节点数量: 1555
+--------------------------------------------------
+算子统计:
+  Conv: 640
+  Relu: 521
+  Add: 265
+  Resize: 66
+  Gather: 20
+  GridSample: 20
+  Concat: 12
+  Slice: 5
+  Transpose: 5
+  ReduceSum: 1
+--------------------------------------------------
